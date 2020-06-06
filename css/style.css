@@ -1,0 +1,258 @@
+/*font-family: 'Playfair Display', serif;*/
+/*font-family: 'Ubuntu', sans-serif;*/
+/*font-family: 'Inconsolata', monospace;*/
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Playfair Display', serif;
+	color:#626262;
+}
+/*header start*/
+header{
+	padding: 15px 0;
+}
+
+.container{
+	width:90%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.logo{
+	width: 13%;
+	float: left;
+	margin-top:8px;
+}
+
+.logo img{
+	width:100%;
+}
+
+.menu{
+	width:70%;
+	float: right;
+}
+.menu ul{
+	float:right;
+}
+.menu ul li{
+	float: left;
+    list-style: none;
+    
+}
+
+
+.menu ul li a{
+	text-decoration: none;
+    text-transform: uppercase;
+    margin: 0 50px;
+    display: inline-block;
+    border-bottom: 1.5px solid transparent;
+    padding-bottom:5px;
+    color:#626262;
+}
+
+.menu ul li a:hover{
+	border-bottom: 1.5px solid #626262;
+	transition: 0.3s;
+}
+
+.menu ul li a:last-child{
+	padding-right: 0;
+}
+
+/*header end*/
+ /*banner atrat*/
+.b_img img{
+	width:100%;
+}
+
+ /*banner end*/
+
+/*about start*/
+
+.about, .blog2, .load{
+	padding: 70px 0 90px 0;
+}
+.container1{
+	width:80%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.l_text{
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+	color:#b9b2a5;
+	text-transform: uppercase;
+}
+
+.title{
+	font-weight: 400;
+	font-size: 30px;
+	margin: 20px 0 30px 0;
+}
+.text{
+	line-height: 25px;
+	margin-bottom: 40px;
+}
+
+/*about end*/
+
+/*blog strat*/
+.blog{
+	margin-bottom: 90px;
+}
+
+.single{
+	width: 46%;
+	float: left;
+	margin-top: 50px;
+}
+
+.single:nth-child(even){
+	margin-left: 7% ;
+}
+
+
+.single img{
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+/*blog end*/
+
+/*Newsletter Start*/
+.news{
+	background-color: #f0f0f0;
+	padding: 70px 0;
+}	
+	
+.signup{
+	text-align: center;
+}
+.s_h1{
+	color: #333333;
+	margin-top: 0;
+	margin-bottom: 70px;
+}
+.s_form{
+	width: 390px;
+	position: relative;
+	margin: 0 auto;
+}
+.s_form input{
+	font-size: 14px;
+	width: 340px;
+	height: 45px;
+	border: none;
+	border-bottom: 1px solid #000000;
+	background-color: transparent;
+	padding-left: 5px;
+	padding-right: 45px;
+}
+
+.s_form input:focus{
+	outline: 0;
+}
+.signup form button{
+	position: absolute;
+	background: transparent;
+	border: none;
+	cursor: pointer;
+	top: 15px;
+	right: 0;
+}
+
+.signup form button:focus{
+	outline: 0;
+}
+
+.signup form button img{
+
+}
+/*Newsletter End*/
+
+
+
+/*Load Starts*/
+
+.load{
+
+}
+
+.container3{
+	text-align:center;
+}
+
+
+.container3 button{
+	font-size: 20px;
+	background:none;
+	border:none;
+	border: 1px solid #626262;
+	cursor: pointer;
+	width: 160px;
+	height: 50px;
+}
+
+
+.container3 button:focus{
+	outline: 0;
+}
+
+.container3 button:hover{
+	background-color: #626262;
+	color: white;
+	transition: 0.4s;
+}
+/*Load Ends*/
+
+/*footer starts*/
+footer{
+	background-color: #f0f0f0;
+	padding: 40px 0;
+}
+
+
+.social{
+	float:left;
+	width: 20%;
+}
+
+.social ul{}
+.social ul li{
+	list-style: none;
+	display: inline-block;
+	padding-right: 10px;
+}
+.social ul li a{
+	text-decoration: none;
+}
+
+.follow{
+	float:right;
+	width: 20%;
+}
+.follow ul{
+	    text-align: right;
+}
+.follow ul li{
+	list-style: none;
+	display: inline-block;
+}
+.follow ul li a{
+	text-decoration: none;
+	margin: 10px;
+}
+
+/*foter end*/
+
+
+
+
+
+
+
+
